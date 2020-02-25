@@ -7,7 +7,7 @@ use git2::Repository;
 
 
 fn main() {
-    let url = "https://github.com/iris-edu/libmseed";
+    let url = "https://gitlab.isti.com/TIM/libmseed";
     match Repository::clone(url, "src/libmseed") {
         Ok(_repo) => {},
         Err(e) => {
